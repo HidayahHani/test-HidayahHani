@@ -28,7 +28,7 @@ class UserController extends Controller
         if(Auth::attempt($loginInfo)) {
             return redirect()->route('tasks.index');
         } else {
-            return redirect()->back()->withInput()->withErrors(['password' => 'Invalid email or password.']);
+            return redirect()->back()->withInput()->withErrors(['password' => 'Invalid Email or Password.']);
         }
     }
 

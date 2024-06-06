@@ -9,7 +9,7 @@
         @method('PUT')
         <div class="edit-form-style">
             <div class="mb-3">
-                <label for="taskName" class="form-label">Email address</label>
+                <label for="taskName" class="form-label">Task</label>
                 <input type="text" class="form-control" id="taskName" name="taskName" value="{{ $task->taskName }}">
                 
             </div>
