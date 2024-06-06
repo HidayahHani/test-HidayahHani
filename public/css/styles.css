@@ -1,0 +1,134 @@
+body {
+    font-family: "Roboto";
+}
+
+.bgcolor {
+    background-color: #254755;
+}
+
+.login-form {
+    width: 35%;
+    margin: 80px auto;
+}
+
+.login-form h1 {
+    text-align: center;
+}
+
+.registration-link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.registration-form {
+    width: 360px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    margin-top: 250px;
+}
+
+.registration-form h1 {
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.registration-form form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+.registration-form form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.registration-form form input {
+    width: 100%;
+    padding: 7px;
+}
+
+.registration-form input[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: lightblue;
+}
+
+.form-error {
+    color: red;
+    font-size: 13px;
+}
+
+table,
+th,
+td {
+    /* margin: 35px auto; */
+    border: 1px solid black;
+    /* width: 300px; */
+    /* border-collapse: collapse; */
+    background-color: antiquewhite;
+}
+
+.custom-table {
+    background-color: antiquewhite;
+    width: 750px;
+    margin: 35px auto;
+}
+
+.custom-table th,
+.custom-table td {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.custom-table th {
+}
+
+.page-title {
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.btn-color {
+    background-color: antiquewhite;
+}
+
+.nav-style {
+    background-color: antiquewhite;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.nav-style h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Tahoma;
+}
+
+.edit-form-style {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.edit-btn {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.no-task-text {
+    text-align: center;
+}
